@@ -1,0 +1,152 @@
+<html>
+    <head>
+
+        <meta name="generator" content="editplus">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="cafe.css">
+        
+        <script>
+            function stickymenu(){
+                var  sticky=Document.getElementByid("sticky");
+                if(window.pageYOffset > 20){
+                    sticky.classList.add("sticky");
+                    sticky.classList.remove("menu-ul");
+                
+                }
+                else{
+                    sticky.classList.remove("menu-ul");
+                }
+            }
+            window.onscroll=function(){
+                stickymenu();
+            }
+            </script>
+</head>
+<body>
+    <div class="top-background">
+        <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <li><a href="">Home </a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Order Now</a></li>
+        </ul> 
+
+        </div>
+        <div class="page-title">CAFE          
+            <div class="description">
+                Feel the Cup of Emotions
+            </div>
+        </div>
+    </div>
+    <div class="page-blocks">
+        <div class="title">
+            COFFEE
+        </div>  
+        <div class="design">
+            <img src="latte.jpeg"/>
+            <img src="cappuccino.jpeg"/>
+            <img src="americano.jpeg"/>
+            <img src="espresso.jpeg"/>
+            <img src="dippoi.jpeg"/>
+            <img src="vanilla latte.jpeg"/>
+            <img src="lavenderlatte.jpeg"/>
+            <img src="whitelatte.jpeg"/>
+            <img src="escap.jpeg"/>
+        </div>
+        <botton class="more-designs-btn">More Images </botton>
+      </div><br></br><br></br><br></br>
+      <div class="page-blocks">
+        <div class="title">
+            SNACKS
+        </div>  
+        <div class="design">
+            <img src="choco cookie.jpeg"/>
+            <img src="cinnamon cake.jpeg"/>
+            <img src="macrons.jpeg"/>
+            <img src="cheesecake.jpeg"/>
+            <img src="donut.jpeg"/>
+            <img src="pancake.jpeg"/>
+            <img src="waffle.jpeg"/>
+            <img src="cake.jpeg"/>
+            <img src="churros.jpeg"/>
+            <img src="blue.jpeg"/>
+        </div>
+        <botton class="more-designs-btn">More Images </botton>
+      </div><br></br><br></br><br></br>
+      <div class="page-blocks">
+          <div class="title">
+          About Us
+      </div>
+      <div class="flex-block">
+          <div class="why-us-flex-item">
+              <div class="block-label">
+                  Our Coffee
+              </div>
+              <div class="block-description">Coffees are made by original ingredients without adding any colors or chemicals.
+                </div>
+          </div>
+          <div class="why-us-flex-item">
+            <div class="block-label">
+                Our Barista
+            </div>
+            <div class="block-description">Our expert baristas are well trained and acquire their job skills by attending barista training courses, they are usually taught on the job by longstanding employees. Many baristas take great pride in their skills and spend years honing specific techniques for crafting perfect drinks.
+
+            </div>
+        </div>
+        <div class="why-us-flex-item">
+            <div class="block-label">
+                Our Service
+            </div>
+            <div class="block-description">We are communicating with our customers with a friendly manner and also giving them our undivided attention. When we have guests at our cafe, we want them to feel like they're at home and are welcome.</div>
+        </div>
+        
+            </div>
+      </div>
+    </div>
+    <div class="page-blocks">
+        <div class="title">
+            Order Now
+            </div>
+            <div class="flex-block">
+                <div class="appointment-flex-item">
+                    <div class="appointment-img">
+                        <div class="appointment-text">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="appointment-flex-item">
+                    <form class="appointment-form">
+                        <input type="text"placeholder="Name"/><br/>
+                        <input type="text"placeholder="Address"/><br/>
+                        <input type="text"placeholder="Mobile"/><br/>
+                        <input type="text"placeholder="Email"/><br/>
+                        <input type="text"placeholder="City"/><br>
+                        <input type="text"placeholder="Menu"></textarea><br/>
+                        <button class="appointment-btn">Order</button>
+                     </form>
+                </div>
+            </div>
+    </div>
+    <!--footer block-->
+    <div class="footer">
+        <div class="locations">
+            <div>Jew Street<br/>
+            <div class="address">Ernakulam<br/>Kerala<br/>682011</div>
+            </div>
+        </div>
+        <div class="locations">
+            <div>MC Road<br/>
+            <div class="address">Kottayam<br/>Kerala<br/>686001</div>
+            </div>
+        </div>
+        
+        
+
+    </div>
+</body>
+</html>
